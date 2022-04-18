@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+        <link rel="style" href="style.css" >
+   
+    <title>Result</title>
+
+    
+
+ <!--navbar-->
+ <nav class="navbar navbar-expand-lg " style="background-color: rgb(247, 127, 84);">
+
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 60%; font-size: 20px;color: rgba(0, 0, 0, 0.2);">
+<ul class="navbar-nav mr-auto" style="color:black" >
+  <li class="nav-item active">
+    <a class="nav-link" href="#" style="color: rgb(44, 40, 40)">Home <span class="sr-only">(current)</span></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" style="color: rgb(44, 40, 40)">About Project</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" style="color: rgb(44, 40, 40)">About us</a>
+  </li>
+</ul>
+<form class="form-inline my-2 my-lg-0">
+  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+</form>
+</div>
+</nav>
+       
+<!--https://www.makeuseof.com/css-background-gradients/-->
+<body style="background: linear-gradient(to right, rgb(243, 243, 248),white, rgb(217, 239, 241));;">
+ 
+  <h1 style="margin-left: 550px;"><br><br>Your Results are Ready .....!</h1>
+  
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  <!--buttons main part of result diaplay -->
+  <div class="row justify-content-center" style="margin-top: 50px;margin-left: 100px;">
+    
+    <div class="col-4"  style="padding-left: 0; padding-right: 0">
+       
+        <button type="button" class="btn btn-dark btn-lg pmetadata">
+        <span class="button__text">Click to view Decription of Video   </span>
+        <span class="button__icon"><ion-icon name="arrow-round-down"></ion-icon></span>
+
+        </button>
+    </div>
+    <div class="col-4" style="padding-left: 0; padding-right: 0">
+       
+        <button type="button" class="btn btn-dark btn-lg metadata">
+        <span class="button__text">Click to view Generated Metadata   </span>
+        <span class="button__icon"><ion-icon name="arrow-round-down"></ion-icon></span>
+
+        </button>
+    </div>
+    <div class="col-4" style="padding-left: 0; padding-right: 0">
+        <button type="button" class="btn btn-dark btn-lg pclass">
+        <span class="button__text">Click to View Predicted Class of Video  </span>
+        <span class="button__icon"><ion-icon name="arrow-round-down"></ion-icon></span>
+        </button>
+
+    </div>
+</div>
+
+
+    
+</div>
+
+<div class="col-md-6 text-center order-2" style=" width: 400px;
+height: 400px;background-color: #cfc ;border: 5px solid green;box-sizing: border-box;margin-left: 80px;margin-top:10px"> 
+<div class="row justify-content-center">
+   <!--description-->
+ 
+    <div class="col-12 justify-content-center hiddenDesc"  >
+        <div class="row">
+            <div class="col-10 blurb"  style="padding-left: 0; padding-right: 0;position: absolute;">
+              <br>
+                <p class="lead">3 2 1 0</p>
+                <p class="lead">[MUSIC]</p>
+                <p class = "lead">Speed performance normal</p>
+                <button class="btn btn-lg btn-light keyword1">Extract Keywords</button>
+                <p class="lead keywords1"><b>Keywords: Speed, Performance, Normal</b></p>
+                
+        <button type="button" class="btn btn-dark btn-lg metadata">
+          <span class="button__text">Save Metadata   </span>
+          <span class="button__icon"><ion-icon name="cloud-done"></ion-icon></span>
+  
+          </button>
+            </div>
+        </div>
+    </div>
+    
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    <!--metadata generation-->
+    <div class="col-12 justify-content-center hiddenAudio">
+        <div class="row">
+            <div class="col-10 blurb"  style=" width: 600px;
+            height: 400px;background-color:pink;border: 5px solid green;box-sizing: border-box;margin-left: 550px;position:absolute">
+                <p class="lead">3 2 1 0</p>
+                <p class="lead">[MUSIC]</p>
+                <p class = "lead">Speed performance normal</p>
+                <button class="btn btn-lg btn-light keyword1">Extract Keywords</button>
+                <p class="lead keywords1"><b>Keywords: Speed, Performance, Normal</b></p>
+                
+        <button type="button" class="btn btn-dark btn-lg metadata">
+          <span class="button__text">Save Metadata   </span>
+          <span class="button__icon"><ion-icon name="cloud-done"></ion-icon></span>
+  
+          </button>
+            </div>
+        </div>
+    </div>
+    
+    
+
+
+    <!--prediction of class -->
+    <div class="col-12 justify-content-center hiddenObj">
+        <div class="col-10 blurb"  style=" width: 500px;
+        height: 400px;background-color: yellow ;border: 5px solid ;box-sizing: border-box;margin-left: 1000px;position:absolute" >
+            <b style="color: rgb(44, 40, 40); font-size: 1.5rem;"><a><i class="bi bi-hand-index-thumb-fill"></i>Prediction of classes</a></b>
+            <div class="row justify-content-center">
+               
+              <!--prediction of category 1-->  
+              <div class="col-4" style="padding-left: 0; padding-right: 0; margin-top: 20px">
+                    <button type="button" class="btn btn-light btn-lg">Animation</button>
+                </div>
+                <div class="col-4" style="padding-left: 0; padding-right: 0; margin-top: 20px">
+                    <button type="button" class="btn btn-light btn-lg">68%</button>
+                </div>
+            </div>
+
+            <!--prediction of category 2-->
+            <div class="row justify-content-center">
+                <div class="col-4" style="padding-left: 0; padding-right: 0; margin-top: 20px">
+                    <button type="button" class="btn btn-light btn-lg">Graphics</button>
+                </div>
+                <div class="col-4" style="padding-left: 0; padding-right: 0; margin-top: 20px">
+                    <button type="button" class="btn btn-light btn-lg">35%</button>
+                </div>
+            </div>
+
+            <!--prediction of category 3-->
+            <div class="row justify-content-center">
+                <div class="col-4" style="padding-left: 0; padding-right: 0; margin-top: 20px">
+                    <button type="button" class="btn btn-light btn-lg ">Launch</button>
+                </div>
+                <div class="col-4" style="padding-left: 0; padding-right: 0; margin-top: 20px">
+                    <button type="button" class="btn btn-light btn-lg">41%</button>
+                </div>
+
+                <button type="button" class="btn btn-dark btn-lg metadata">
+                  <span class="button__text">Save the Video in Category Folder   </span>
+                  <span class="button__icon"><ion-icon name="cloud-download"></ion-icon></span>
+          
+                  </button>
+            </div>
+
+
+
+           
+            
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+</section>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+crossorigin="anonymous"></script>
+
+<script>
+$(document).ready(function () {
+
+$(".metadata").click(function () {
+    $(".hiddenImgs").hide();
+    $(".hiddenAudio").toggle();
+    $(".hiddenOCR").hide();
+    $(".hiddenObj").hide();
+    $(".keywords1").hide();
+    $(".keywords2").hide();
+});
+
+$(".pmetadata").click(function () {
+    $(".hiddenImgs").hide();
+    $(".hiddenDesc").toggle();
+    $(".hiddenOCR").hide();
+    $(".hiddenObj").hide();
+    $(".keywords1").hide();
+    $(".keywords2").hide();
+});
+
+
+$(".pclass").click(function () {
+    $(".hiddenImgs").hide();
+    $(".hiddenAudio").hide();
+    $(".hiddenOCR").hide();
+    $(".hiddenObj").toggle();
+    $(".keywords1").hide();
+    $(".keywords2").hide();
+});
+
+});
+</script>
+
+
+<!--Footer-->
+<footer class="text-center text-white dynamic-bottom " style="background-color: #21081a;margin-top: 400px;height: 150px;">
+  <!-- Grid container -->
+  <div class="container p-4"></div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3 " style="background-color: rgba(0, 0, 0, 0.2);">
+      <h1>Video metadata generation and classification</h1>
+      <style>
+          div {
+              
+              text-align: center;
+          }
+        </style>
+    © 2022 Smart India Hackathon :
+    <a class="text-white" href="https://sih.gov.in/sih2022PS?technology_bucket=NA==&category=QWxs&organization=QWxs&organization_type=QWxs">sih.gov.in</a>
+  </div>
+  <!-- Copyright -->
+</footer>    
+
+</body>
+</html>

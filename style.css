@@ -1,0 +1,24 @@
+
+
+
+@import "../../assets/css/bootstrap.css";
+@import "../../assets/css/style.css";
+@import "../../assets/css/zoomslider.css";
+@import "../../assets/css/component.css";
+@import "../../assets/css/light-carousel.css";
+#navbarSupportedContent:hover{
+    color:black;
+    background-color:grey;
+}
+
+#navbarSupportedContent{
+    color:black;
+    background-color:grey;
+}
+
+#desc{
+    
+        background-color: rgb(33, 252, 33) ;
+        padding: 100px ;
+        border: 1px solid green ;
+    }
